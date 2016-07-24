@@ -1,0 +1,70 @@
+<html>
+    <head>
+        
+        <title>Webpage with style</title>
+        
+        <!-- Internal CSS -->
+        <style type="text/css">
+            p {
+                color:red;
+                font-size:200%;
+            }
+            
+            .featured {
+                color:aqua;
+            }
+            
+            .large {
+                font-size: 250%;
+            }
+            
+            #green {
+                color:green;
+            }
+            
+            .underlined {
+                text-decoration: underline;
+            }
+            
+            h1 {
+                color:pink;
+                
+            }
+            
+            #first-section {
+                color:gold;
+                background-color: pink;
+                width:50%;
+            }
+            
+            #second-section {
+                background-color:yellow;
+            }
+        
+        </style>
+        
+    </head>
+    
+    <body>
+        
+        <!-- Inline style
+            <h1 style="color:green; font-size=50%">CSS is cool</h1>
+        -->
+        
+        <div id="first-section">
+            <p>This is a paragraph in a div.</p>
+        </div>
+        
+        <div id="second-section">
+            <h1>CSS is cool</h1>
+        </div>
+        
+        <!-- Classes applied to multiple -->
+        <p class="featured large underlined">The quick brown fox jumped over the lazy dog.</p>
+        
+        <!-- Ids apply to single lines -->
+        <p id="green">Some more text</p>
+        
+        <p>Internal css applies to all paragraphs</p>
+    </body>
+</html>
